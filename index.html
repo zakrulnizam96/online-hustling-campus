@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Online Hustling Campus - Jadikan Internet sebagai Mesin Duit Sampingan Anda!</title>
+        <meta property="og:title" content="Online Hustling Campus - Jadikan Internet sebagai Mesin Duit Sampingan Anda!">
+    <meta property="og:description"
+        content="Jadikan Internet sebagai Mesin Duit Sampingan Anda!">
+    <meta property="og:image"
+        content="https://stripe-camo.global.ssl.fastly.net/bda374eb9560f91c076d6eaa8ba3a57f8d81068418352cff2416fae54bcd0da6/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a644638785433466a5547314a4e546448566d4a516256704466475a7358327870646d566657466c5053325a315a584a33626a4e7653476c4f6248706b52566b304d56566b30304c384b6c4b567a63/636c69656e743d5041594d454e545f50414745">
+    <!-- Replace with an image URL -->
+    <meta property="og:url" content="https://zakrulnizam96.github.io/online-hustling-campus/">
+    <meta name="twitter:card"
+        content="https://stripe-camo.global.ssl.fastly.net/bda374eb9560f91c076d6eaa8ba3a57f8d81068418352cff2416fae54bcd0da6/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a644638785433466a5547314a4e546448566d4a516256704466475a7358327870646d566657466c5053325a315a584a33626a4e7653476c4f6248706b52566b304d56566b30304c384b6c4b567a63/636c69656e743d5041594d454e545f50414745">
+    <meta name="twitter:title" content="Online Hustling Campus - Jadikan Internet sebagai Mesin Duit Sampingan Anda!">
+    <meta name="twitter: Jana income dengan ChatGPT"
+        content="Online Hustling Campus - Jadikan Internet sebagai Mesin Duit Sampingan Anda!">
+    <meta name="twitter:image"
+        content="https://stripe-camo.global.ssl.fastly.net/bda374eb9560f91c076d6eaa8ba3a57f8d81068418352cff2416fae54bcd0da6/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a644638785433466a5547314a4e546448566d4a516256704466475a7358327870646d566657466c5053325a315a584a33626a4e7653476c4f6248706b52566b304d56566b30304c384b6c4b567a63/636c69656e743d5041594d454e545f50414745">
+    <!-- Replace with an image URL -->
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .btn-warning {
+            font-weight: 600;
+            border-radius: 30px;
+            padding: 12px 30px;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+            padding: 120px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .icon-box {
+            background: #161b22;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .icon-box img {
+            width: 60px;
+            margin-bottom: 15px;
+        }
+
+        .learn-card {
+            background: #161b22;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .testimonial,
+        .review {
+            background: #161b22;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .faq {
+            background: #161b22;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .faq .card-header {
+            background: none;
+            border: none;
+        }
+
+        footer {
+            background: #000;
+            padding: 30px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #f1c40f;
+        }
+
+        .hero {
+            padding: 100px 20px;
+            text-align: center;
+            background: #0d1117;
+            /* kalau nak kosong tanpa bg image */
+        }
+
+        .hero img {
+            max-width: 300px;
+            /* control size maksimum kat PC */
+            width: 80%;
+            /* ikut skrin (mobile = kecil, PC = max 300px) */
+            height: auto;
+        }
+
+        @media (min-width: 992px) {
+            .hero img {
+                max-width: 400px;
+                /* kat PC besar sikit tapi still terkawal */
+            }
+        }
+
+        /* Popup Notification */
+        #popup {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: #f39c12;
+            color: #fff;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center">
+        <img src="https://stripe-camo.global.ssl.fastly.net/bda374eb9560f91c076d6eaa8ba3a57f8d81068418352cff2416fae54bcd0da6/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a644638785433466a5547314a4e546448566d4a516256704466475a7358327870646d566657466c5053325a315a584a33626a4e7653476c4f6248706b52566b304d56566b30304c384b6c4b567a63/636c69656e743d5041594d454e545f50414745"
+            alt="Online Hustling Campus" class="img-fluid">
+        <br>
+        <h2>Online Hustling Campus</h2>
+        <p class="lead">Jadikan internet sebagai mesin duit tambahan!</p>
+        <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="container py-5">
+        <h2 class="section-title">Apa yang korang dapat belajar?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <h4>Freelance Data Entry Fiverr</h4>
+                    <p>Belajar cara nak mula jadi Freelance data entry market global USD</p>
+                    <br>
+                    <iframe s width="100%" height="500"
+                        src="https://www.loom.com/embed/93231ee64c9840328c0115e881431a64?sid=6b0eaa65-e95c-4141-9201-c53ad44a811a"
+                        allowfullscreen></iframe>
+                    <br>
+                    <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="https://via.placeholder.com/60" alt="">
+                    <h5>Jana income Shopee Affiliate guna chatGPT</h5>
+                    <p>Tak perlu buat video affiliate, belajar cara betul pompt chatgpt untuk promote shopee
+                        affiliate di Thread</p>
+                    <br>
+                    <iframe s width="100%" height="500"
+                        src="https://www.loom.com/embed/a506749662064936ab11abe8913b6272?sid=bc2f0369-49b4-4db0-85cf-fffb752e96ed"
+                        allowfullscreen></iframe>
+                    <br>
+                    <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <h5>Jana income jual Ebook dalam USD</h5>
+                    <p>Belajar cara hasilkan ebook berkualiti dan pasarkan ke market USA menggunakan Twitter (X)</p>
+                    <br>
+                    <iframe s width="100%" height="500"
+                        src="https://www.loom.com/embed/cee19f5f7fd04185987968d5677bad06?sid=743a6154-5258-4a85-8ea3-3344c8a5906f"
+                        allowfullscreen></iframe>
+                    <br>
+                    <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <h5>Jual template bisnes Excel untuk IKS</h5>
+                    <p>Belajar cara nak jual semula pelbagai template excel kepada syarikat kecil menggunakan email
+                        marketing</p>
+                    <br>
+                    <iframe s width="100%" height="500"
+                        src="https://www.loom.com/embed/0efc52d693a54de8a3cd14a4d790c621?sid=9e63cec5-d5f6-45a7-9e95-04dfa367fd43"
+                        allowfullscreen></iframe>
+                    <br>
+                    <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="https://via.placeholder.com/60" alt="">
+                    <h5>Ultimate Cold Email for Freelancer</h5>
+                    <p>Teknik untuk reach company luar negara untuk promosikan servis freelance dengan blueprint PAS</p>
+                    <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="https://via.placeholder.com/60" alt="">
+                    <h5>Ai-preneur</h5>
+                    <p>Manfaatkan chatgpt untuk bantu korang startup syarikat tanpa perlu modal bayar gaji pekerja</p>
+                    <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <!-- <section class="container py-5">
+        <h2 class="section-title">Biar gambar berbicara!</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"I changed my life in 3 months after applying these lessons!"</p>
+                    <small>- Student A</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"The most practical wealth course I’ve ever seen."</p>
+                    <small>- Student B</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"From broke to 6-figures, thanks to this program."</p>
+                    <small>- Student C</small>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- PRICING -->
+    <section class="py-5 text-center">
+        <h2 class="section-title">Join Sekarang!</h2>
+        <h3 class="mb-4">RM 49/bulan</h3>
+        <p><b style="color: red;">Terhad kepada 100 slot sahaja! <br>HARGA ASAL RM 199/bulan</b></p>
+        <ul class="list-unstyled mb-4">
+            <li>✔️ Akses penuh kepada semua course</li>
+            <li>✔️ Fast response admin support</li>
+            <li>✔️ Cuba subscribe sebulan,khatam semua course cepat, then boleh unsubscribe bila-bila je</li>
+        </ul>
+        <a href="https://buy.stripe.com/28E14ndM9cM5c7zb4G3ZK0i" class="btn btn-warning mt-4">JOIN NOW</a>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; Online Hustling Campus. All Rights Reserved.</p>
+        <!-- <p><a href="#">Privacy Policy</a> | <a href="#">Terms</a></p> -->
+    </footer>
+    <div id="popup">S****k telah sertai Online Hustling Campus 3 Jam yang lalu</div>
+
+    <script>
+        // Array of random names
+        const names = ["Siti", "Ali", "Aisyah", "Aiman", "Saiful", "Zahra", "Rizal", "Hassan", "Mira", "Kamal"];
+
+        // Function to get random name from the array and censor it
+        function getRandomName() {
+            const randomIndex = Math.floor(Math.random() * names.length);
+            const name = names[randomIndex];
+            return `${name.charAt(0)}****${name.charAt(name.length - 1)}`; // Show first and last letter only
+        }
+
+        // Function to get a random number of hours
+        function getRandomHoursAgo() {
+            return Math.floor(Math.random() * 12) + 1; // Random hours between 1 and 12
+        }
+
+        // Function to show the popup
+        function showPopup() {
+            const popup = document.getElementById("popup");
+            const name = getRandomName();
+            const hoursAgo = getRandomHoursAgo();
+            popup.textContent = `${name} telah sertai Online Hustling Campus ${hoursAgo} Jam yang lalu`;
+
+            // Display the popup
+            popup.style.display = "block";
+            setTimeout(() => popup.style.display = "none", 5000);
+        }
+
+        // Call showPopup every 10 seconds
+        setInterval(showPopup, 10000); // Adjust the interval time as needed (10000ms = 10 seconds)
+    </script>
+
+    <script>
+        const slides = document.querySelector('.slides');
+        const slide = document.querySelectorAll('.slide');
+        let index = 0;
+
+        document.querySelector('.next').addEventListener('click', () => {
+            index = (index + 1) % slide.length;
+            updateSlide();
+        });
+
+        document.querySelector('.prev').addEventListener('click', () => {
+            index = (index - 1 + slide.length) % slide.length;
+            updateSlide();
+        });
+
+        function updateSlide() {
+            slides.style.transform = `translateX(-${index * 100}%)`;
+        }
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
